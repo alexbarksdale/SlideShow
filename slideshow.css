@@ -1,4 +1,22 @@
 .slides-inner {
     display: flex;
     flex-direction: row;
+
+    position: absolute;
+    transform: translate3d(0, 0, 0);
+    transition: 1500ms;
+}
+
+.slide-show {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Developer Styles (id="slides") */
+#slides {
+    border: 2px solid red;
+
+    margin: auto;
+    width: 1200px;
+    height: 400px;
 }
