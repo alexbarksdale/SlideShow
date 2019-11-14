@@ -1,0 +1,4 @@
+.slides-inner {
+    display: flex;
+    flex-direction: row;
+}
