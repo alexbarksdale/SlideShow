@@ -1,8 +1,9 @@
 // IIFE
-(function() {
+
+(function () {
     function makeSlideShow(slides) {
-        const slidesInner = slides.querySelector('.slides-inner'); //?  Why didn't we use getElementByClassName
-        const images = slidesInner.querySelectorAll('img'); //?  Why didn't we use getElementByTag
+        const slidesInner = slides.querySelector('.slides-inner');
+        const images = slidesInner.querySelectorAll('img');
 
         const delay = parseInt(slides.dataset.delay);
         const transition = parseInt(slides.dataset.transition);
