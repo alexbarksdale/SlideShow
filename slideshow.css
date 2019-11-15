@@ -7,21 +7,7 @@
     transition: 1500ms;
 }
 
-.slide-show {
+.ms-slide-show {
     overflow: hidden;
     position: relative;
-}
-
-/* Developer Styles (id="slides") */
-#slides {
-    border: 2px solid red;
-
-    margin: auto;
-    width: 1200px;
-    height: 400px;
-}
-
-#slides-2 {
-    width: 300px;
-    height: 169px;
 }

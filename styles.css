@@ -1,22 +1,12 @@
-/* .banner {
+/* Developer Styles (id="slides") */
+#slides {
+
+    margin: auto;
     width: 1200px;
     height: 400px;
-    margin: auto;
 }
 
-.card-row {
-    display: flex;
-    justify-content: center;
-}
-
-.card {
+#slides-2 {
     width: 300px;
-    border: 1px solid;
-    margin: 1em;
-}
-
-#pollen,
-#pollen-2,
-#pollen-3 {
     height: 169px;
-} */
+}
